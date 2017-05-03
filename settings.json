@@ -10,7 +10,7 @@
     "editor.quickSuggestionsDelay": 5,
     "editor.dragAndDrop": true,
     "editor.tabSize": 2,
-    "files.autoSave": "off",
+    "files.autoSave": "afterDelay",
     // workbench settings
     "workbench.iconTheme": "vscode-icons",
     "vsicons.projectDetection.autoReload": true,
