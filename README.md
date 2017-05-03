@@ -1,0 +1,3 @@
+# vscode-settings
+##
+These are my settings for VScode since the last update it cleared all of my settings and I had to find them. Thank you shadow copy....
