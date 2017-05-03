@@ -1,0 +1,38 @@
+{
+    // editor settings
+    "http.proxyStrictSSL": false,
+    "editor.fontSize": 11.5,
+    "editor.fontFamily": "Office Code Pro",
+    "files.trimTrailingWhitespace": true,
+    "editor.renderIndentGuides": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": true,
+    "editor.quickSuggestionsDelay": 5,
+    "editor.dragAndDrop": true,
+    "editor.tabSize": 2,
+    "files.autoSave": "off",
+    // workbench settings
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.projectDetection.autoReload": true,
+    "window.menuBarVisibility": "toggle",
+    // languages
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "files.associations": {
+        "*.sql": "sql"
+    },
+    "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  // intellisense fixing the not able to search issue.
+  //intellisense plugin setting
+    "path-intellisense.extensionOnImport": true,
+    "path-intellisense.showHiddenFiles": true,
+    "path-intellisense.autoSlashAfterDirectory": true
+}
