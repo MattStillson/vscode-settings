@@ -6,7 +6,7 @@
     "editor.fontLigatures": true,
     "files.trimTrailingWhitespace": true,
     "editor.renderIndentGuides": true,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": true,
     "editor.quickSuggestionsDelay": 5,
     "editor.dragAndDrop": true,
@@ -20,13 +20,12 @@
     "workbench.iconTheme": "vscode-icons",
     "vsicons.projectDetection.autoReload": true,
     "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.colorCustomizations": {
-        "editorLineNumber.foreground": "#FFFF00",
-        "editorCursor.foreground": "#00FFFF",
-        "statusBar.background": "#BB0802",
-        "tab.activeForeground": "#00FF00",
-        "tab.inactiveForeground": "#969696"
+        "tab.activeBackground": "#282c34",
+        "activityBar.background": "#282c34",
+        "editorGroup.background": "#282c34",
+        "sideBar.background": "#282c34"
     },
     // languages
     "eslint.enable": true,
