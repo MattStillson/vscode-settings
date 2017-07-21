@@ -60,7 +60,8 @@
         "vendor": true
     },
     "typescript.check.tscVersion": false,
-    "path-intellisense.extensionOnImport": true,
+    "path-intellisense.extensionOnImport": false,
     "path-intellisense.showHiddenFiles": true,
-    "path-intellisense.autoSlashAfterDirectory": true
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "npm-intellisense.scanDevDependencies": true
 }
