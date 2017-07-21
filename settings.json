@@ -1,37 +1,65 @@
 {
     // editor settings
     "http.proxyStrictSSL": false,
-    "editor.fontSize": 11.5,
-    "editor.fontFamily": "Office Code Pro",
+    "editor.fontSize": 13.5,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "files.trimTrailingWhitespace": true,
     "editor.renderIndentGuides": true,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.minimap.renderCharacters": true,
     "editor.quickSuggestionsDelay": 5,
     "editor.dragAndDrop": true,
+    "editor.wordWrap": "on",
     "editor.tabSize": 2,
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onWindowChange",
+    "editor.formatOnSave": false,
+    "files.autoGuessEncoding": true,
+    "window.zoomLevel": -1,
     // workbench settings
     "workbench.iconTheme": "vscode-icons",
     "vsicons.projectDetection.autoReload": true,
     "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#FFFF00",
+        "editorCursor.foreground": "#00FFFF",
+        "statusBar.background": "#BB0802",
+        "tab.activeForeground": "#00FF00",
+        "tab.inactiveForeground": "#969696"
+    },
     // languages
-    "[cpp]": {
-        "editor.quickSuggestions": false
-    },
-    "[c]": {
-        "editor.quickSuggestions": false
-    },
+    "eslint.enable": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "files.associations": {
         "*.sql": "sql"
     },
     "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
-  },
-  // intellisense fixing the not able to search issue.
-  //intellisense plugin setting
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[javascript]": {
+
+    },
+    "search.exclude": {
+        "node_modules": true,
+        "bower_components": true,
+        ".build/**": true,
+        "out*/**": true,
+        "i18n/**": true,
+        "extensions/**/out/**": true,
+        "*.min.js": true
+    },
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "jspm_packages": true,
+        "node_modules": true,
+        "tmp": true,
+        "vendor": true
+    },
+    "typescript.check.tscVersion": false,
     "path-intellisense.extensionOnImport": true,
     "path-intellisense.showHiddenFiles": true,
     "path-intellisense.autoSlashAfterDirectory": true
