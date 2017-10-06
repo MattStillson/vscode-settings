@@ -1,7 +1,7 @@
 {
     // editor settings
     "http.proxyStrictSSL": false,
-    "editor.fontSize": 13.5,
+    "editor.fontSize": 17,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "files.trimTrailingWhitespace": true,
@@ -16,6 +16,8 @@
     "editor.formatOnSave": false,
     "files.autoGuessEncoding": true,
     "window.zoomLevel": -1,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "monospaced",
     // workbench settings
     "workbench.iconTheme": "vscode-icons",
     "vsicons.projectDetection.autoReload": true,
